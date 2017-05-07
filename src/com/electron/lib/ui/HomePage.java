@@ -16,4 +16,8 @@ public class HomePage
 		return driver.
 				findElement(By.xpath("//img[@class='logoutImg']/.."));
 	}
+	public WebElement getUsersTab()
+	{
+		return driver.findElement(By.linkText("Users"));
+	}
 }
